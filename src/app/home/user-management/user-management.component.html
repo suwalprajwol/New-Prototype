@@ -1,0 +1,17 @@
+<!-- <div *ngIf="adminData" style="margin:10%">
+    <h1>User Management</h1>
+    <div *ngFor="let data of adminData">
+        <mat-list *ngFor="let d of data.links" >
+            <mat-list-item><a href="#">{{d.displayName}}</a></mat-list-item>
+            <mat-divider></mat-divider>
+        </mat-list>
+    </div>
+</div> -->
+
+<div *ngIf="adminData" style="margin:10%">
+    <h1>User Management</h1>
+    <mat-list *ngFor="let d of adminData" >
+        <mat-list-item><a href="#">{{d.displayName}}</a></mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-list>
+</div>

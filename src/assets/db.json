@@ -1,0 +1,108 @@
+
+{
+    "links": [{
+      "id": "links1",
+      "displayName": "User Setting",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }, {
+      "id": "links2",
+      "displayName": "User Policy Summary Report",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }],
+  
+  
+    "userManagement": [{
+      "id": "userManagement1",
+      "displayName": "MEMBER PEND",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }, {
+      "id": "userManagement2",
+      "displayName": "ICD09 C07",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }, {
+      "id": "userManagement3",
+      "displayName": "PROVIDER MAPPING",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }, {
+      "id": "userManagement4",
+      "displayName": "PROVIDER RESTRICTION",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }, {
+      "id": "userManagement5",
+      "displayName": "SERVICE EDIT OVERRIDE",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }],
+  
+  
+    "referenceData": [{
+      "id": "referenceData1",
+      "displayName": "COUNTRY CODE XWALK MASTER LIST",
+      "name": "PROV-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dPROV-PEND"
+    }, {
+      "id": "referenceData2",
+      "displayName": "EDIT ERROR CODE MASTER LIST",
+      "name": "FPRPROV",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dFPRPROV"
+    }, {
+      "id": "referenceData3",
+      "displayName": "EOB REMIT REMARK MASTER LIST",
+      "name": "ICD9-FPR-C07",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dICD9-FPR-C07"
+    }, {
+      "id": "referenceData4",
+      "displayName": "REMARK CODE MASTER LIST",
+      "name": "SERVICE-EDIT-OVERRIDE",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dSERVICE-EDIT-OVERRIDE"
+    }, {
+      "id": "referenceData5",
+      "displayName": "MORE OPTIONS",
+      "name": "MEMB-PEND",
+      "show": "true",
+      "type": "LINK",
+      "enabled": "true",
+      "url": "/newRulesRoster?ruleDomain\u003dMEMB-PEND"
+    } ]
+  }
+  
+  

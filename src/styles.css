@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+body{
+    margin: 0px;
+}
+.mat-tab-labels{
+    background-color: #113256 !important;
+    color:white;
+    height: 50px;
+}
+
+.mat-tab-label-content{
+    color:white;
+    font-size: 18px;
+}
+
+.mat-tab-label-active{
+    border-radius: 10px; 
+    color:black;
+
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background:#0b94cf;
+    height: 5px;
+  } 

@@ -1,0 +1,19 @@
+<!-- <div *ngIf="adminData" style="margin:10%;width:30%;">
+    <h1>Business Rule Claims</h1>
+  <div style="border:1px solid #e0e0e0;" *ngFor="let data of adminData">
+    <mat-list *ngFor="let d of data.userManagement" >
+      <mat-list-item>{{d.displayName}}</mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+  </div>
+</div> -->
+
+<div *ngIf="adminData" style="margin:10%;width:30%;">
+  <h1>Business Rule</h1>
+<div style="border:1px solid #e0e0e0;">
+  <mat-list *ngFor="let d of adminData" >
+    <mat-list-item>{{d.displayName}}</mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
+</div>
+</div>
